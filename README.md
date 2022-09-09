@@ -7,7 +7,7 @@ In fact, it includes some redundant code/comments that Richard had left behind. 
 
 **Requirements:**
 1. OS Data Hub API Key for OS Places API (https://osdatahub.os.uk/docs/places/overview)
-2. osplaces.zip - This is the "osplaces" plugin file
+2. [osplaces.zip[(https://github.com/gitsnewbie/osplaces_geocoder/blob/main/osplaces.zip) - This is the "osplaces" plugin file
 3. "Plugin Reloader" Plugin - This plugin will be needed to recompile the plugin once you have added the API Key
 
 **Steps:**
