@@ -4,6 +4,7 @@ Bulk of the code is a sloppy lift and shift job of the Nominatmim Locator Filter
 In fact, it includes some redundant code/comments that Richard had left behind. Note that only top 100 hits are returned so likelihood of satisfactory geocoding depends upon your search string. In other words, try a variety of combination..
 
 **INSTALLATIONS:**
+
 **Requirements:**
 1. OS Data Hub API Key for OS Places API (https://osdatahub.os.uk/docs/places/overview)
 2. osplaces.zip - This is the "osplaces" plugin file
