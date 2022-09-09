@@ -7,11 +7,11 @@ In fact, it includes some redundant code/comments that Richard had left behind. 
 
 **Requirements:**
 1. OS Data Hub API Key for OS Places API (https://osdatahub.os.uk/docs/places/overview)
-2. [osplaces.zip[(https://github.com/gitsnewbie/osplaces_geocoder/blob/main/osplaces.zip) - This is the "osplaces" plugin file
+2. [osplaces.zip](https://github.com/gitsnewbie/osplaces_geocoder/blob/main/osplaces.zip) - This is the "osplaces" geocoder plugin file
 3. "Plugin Reloader" Plugin - This plugin will be needed to recompile the plugin once you have added the API Key
 
 **Steps:**
-1. Install the "osplaces" plugin in QGIS using the Zip option
+1. Download the [osplaces.zip](https://github.com/gitsnewbie/osplaces_geocoder/blob/main/osplaces.zip) and Install the "osplaces" plugin in QGIS using the Zip option
 2. Browse to the python\Plugins\osplaces folder, and update the osplaces_geocoder.py code by adding the API key in line 72, save the changes.
 3. Recompile the "osplaces" using the "Plugin Reloader" in QGIS
 
