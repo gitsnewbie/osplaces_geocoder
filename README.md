@@ -5,13 +5,14 @@ In fact, it includes some redundant code/comments that Richard had left behind. 
 
 **Installation:**
 Requirements:
-    1. OS Data Hub API Key for OS Places API (https://osdatahub.os.uk/docs/places/overview)
-    2. osplaces.zip - This is the plugin file
-    3. "Plugin Reloader" Plugin - This plugin will be needed to recompile the plugin once you have added the API Key
-   Steps:
-    1. Install the "osplaces" plugin in QGIS using the Zip option
-    2. Browse to the python\Plugins\osplaces folder, and update the osplaces_geocoder.py code by adding the API key in line 72, save the changes.
-    3. Recompile the "osplaces" using the "Plugin Reloader" in QGIS
+1. OS Data Hub API Key for OS Places API (https://osdatahub.os.uk/docs/places/overview)
+2. osplaces.zip - This is the "osplaces" plugin file
+3. "Plugin Reloader" Plugin - This plugin will be needed to recompile the plugin once you have added the API Key
+
+**Steps:**
+1. Install the "osplaces" plugin in QGIS using the Zip option
+2. Browse to the python\Plugins\osplaces folder, and update the osplaces_geocoder.py code by adding the API key in line 72, save the changes.
+3. Recompile the "osplaces" using the "Plugin Reloader" in QGIS
 
 **How to use:**
 1. In the locator bar on the bottom left of QGIS, type osplaces followed by a space then search string, and then another space. If a search string successfully yields any hits, then a list of top 100 matching hits will appear. 
